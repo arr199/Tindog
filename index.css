@@ -1,0 +1,163 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2,h1 {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25em ;
+    align-items: center;
+    min-width: 200px;
+    max-width: 420px;
+    margin: 0 auto;
+   
+ 
+}
+.nav-icons {
+
+    width: 2.125rem;
+    cursor: pointer;
+   
+}
+
+
+.logo{
+
+    width: 84px;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+main {
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero-container{
+   
+
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    min-width: 200px;
+    max-width: 424px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end; 
+    gap: 0.625em;
+    padding: 0  0 1rem 0.75em; 
+    border-radius: 15px;
+ 
+ 
+ 
+}
+
+.dog-name {
+    font-size: 2rem;
+    color: #F8F8F8;
+
+}
+
+
+.question {
+    font-size: 1.5rem;
+    color: #B7B7B7;
+
+}
+
+
+.container {
+    width: 100%;
+    min-height: 140px;
+    max-width: 434px;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+
+    
+
+}
+
+.like-icon{
+    
+    padding: 2.0625em;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px #939396  ;
+    cursor: pointer;
+}
+
+.dislike-icon{
+    padding: 2.0625em;
+
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px #939396 ;
+    cursor: pointer;
+
+}
+
+.like-icon:hover,.like-icon:focus{
+    
+background: #DBFFF4;
+
+
+
+}
+
+.dislike-icon:hover,.dislike-icon:focus{
+
+  background: #FFE7EF;
+}
+
+.like-icon:active,.dislike-icon:active{
+   
+    transform: translateY(5px);
+
+}
+
+button {
+
+    border: 0;
+    background: none;
+} 
+
+.hidden-like{
+  
+    position: absolute;
+    width: 233px;
+    inset:  0;
+    margin: 3.125em 0 0 0.625em;
+    border-radius: 10px;
+    transform: rotate(-30deg);
+  
+
+
+}
+
+.hidden-dislike{
+    
+    position: absolute;
+    width: 233px;
+    inset:  0;
+    margin: 3.125em 0 0 0.625em;
+    border-radius: 10px;
+    transform: rotate(-30deg);
+
+
+}
+
